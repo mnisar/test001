@@ -20,6 +20,8 @@ namespace WebApplication1
             );
 
             routes.MapMvcAttributeRoutes();
+
+            var currentDateTime = DateTime.Now;
         }
     }
 }
